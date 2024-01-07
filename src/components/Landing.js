@@ -1,4 +1,4 @@
-// eslint-disable-next-line
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
 import CodeEditorWindow from "./CodeEditorWindow";
 import { classnames } from "../utils/general";
@@ -58,7 +58,7 @@ const Landing = () => {
       headers: {
         "content-type": "application/json",
         "Content-Type": "application/json",
-        "X-RapidAPI-Key": "RAPID_API_KEY",
+        "X-RapidAPI-Key": "74fe885b06msh2536fb1b5ac97cep140e53jsn137e9da9effe",
         "X-RapidAPI-Host": "judge0-ce.p.rapidapi.com",
       },
       body: JSON.stringify({
@@ -84,7 +84,7 @@ const Landing = () => {
     const options = {
       method: "GET",
       headers: {
-        "X-RapidAPI-Key": "RAPID_API_KEY",
+        "X-RapidAPI-Key": "74fe885b06msh2536fb1b5ac97cep140e53jsn137e9da9effe",
         "X-RapidAPI-Host": "judge0-ce.p.rapidapi.com",
       },
     };
